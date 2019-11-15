@@ -1,0 +1,26 @@
+set(COMPONENT_SRCS "tft_demo.c"
+"comic24.c"
+"def_small.c"
+"DefaultFont.c"
+"DejaVuSans18.c"
+"DejaVuSans24.c"
+"minya24.c"
+"SmallFont.c"
+"tft.c"
+"tooney32.c"
+"Ubuntu16.c"
+ "tftspi.c"
+  "tft.c"
+ "spi_master_lobo.c"
+ "esp_spiffs.c"
+ "list.c"
+ "mutex.c"
+"spiffs_vfs.c"
+ "spiffs_cache.c"
+ "spiffs_check.c"
+ "spiffs_gc.c"
+ "spiffs_hydrogen.c"
+ "spiffs_nucleus.c")
+set(COMPONENT_ADD_INCLUDEDIRS ".")
+
+register_component()
