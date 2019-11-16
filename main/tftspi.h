@@ -48,7 +48,7 @@
 #define DEFAULT_SPI_CLOCK           26000000
 #define TFT_INVERT_ROTATION         0
 #define TFT_INVERT_ROTATION1        0
-#define TFT_RGB_BGR                 0x00
+#define TFT_RGB_BGR                 0x08
 
 #define USE_TOUCH	TOUCH_TYPE_NONE
 
